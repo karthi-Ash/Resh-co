@@ -1,0 +1,203 @@
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0px !important;
+    text-transform: uppercase;
+    z-index: 99999;
+  }
+  .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .close {
+    display: none;
+  }
+  .nav-social-div {
+    display: block;
+  }
+  .close i {
+    color: #1f4245 !important;
+  }
+  .nav-item a {
+    margin: 5px 0px !important;
+  }
+  .nav-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .nav-social-title {
+    margin: 15px auto !important;
+  }
+  .nav-social img {
+    width: 20px;
+    height: 20px;
+  }
+  .nav-item.active a:after {
+    color: #cfcdcd;
+    font-family: FontAwesome;
+    text-align: center;
+    content: "\f0c1";
+    display: inline;
+    margin: auto;
+  }
+  .nav-phone {
+    display: block;
+    margin-left: 10px;
+  }
+  .navbar-brand {
+    font-size: 24px !important;
+  }
+  .nav-phone i {
+    font-size: 16px !important;
+    color: #1f4245 !important;
+  }
+  .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    margin-right: 10px;
+  }
+  .navbar-toggler-icon {
+    display: block;
+    font-size: 16px;
+    color: #1f4245 !important;
+  }
+  .story {
+    padding: 0rem !important;
+    margin: 0 !important;
+  }
+  .story-header {
+    font-size: 18px;
+  }
+  .story-header span {
+    font-size: 18px;
+  }
+  .story .row .col-md-5 {
+    padding: 1.5rem;
+  }
+  .story .row .col-md-5 img {
+    width: 280px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px;
+  }
+  .count {
+    padding: 0rem !important;
+  }
+  .story .row .event img {
+    height: 460px;
+  }
+  .section-title h2 {
+    padding-top: 1rem;
+  }
+  .story .carousel-inner img {
+    padding: 0.7rem;
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+  }
+  .about-us .carousel-inner .card img {
+    margin: auto !important;
+    width: 300px;
+    height: 300px;
+  }
+  .memory {
+    padding: 0.5rem;
+    height: auto;
+  }
+  .memory-title h2 {
+    font-size: 24px;
+    padding: 2rem 0;
+  }
+  .memory-title span {
+    font-size: 28px;
+  }
+  .footer img {
+    margin: 20px auto;
+  }
+  /*weddings-page*/
+  .weddings h1 {
+    font-size: 20px;
+  }
+  /*events-page*/
+  .events-page {
+    background: #f2f2f2 url("../assets/images/events-page-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+  }
+  .events-page h1 {
+    position: absolute;
+    top: 108%;
+    font-size: 24px;
+  }
+  .events-page .first {
+    position: absolute;
+    top: 118%;
+    margin: auto;
+  }
+  .events-page .second {
+    position: absolute;
+    top: 138%;
+  }
+  .event-memory {
+    height: auto;
+  }
+  /*blog-page*/
+  .blog {
+    background: #f2f2f2 url("../assets/images/blog-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    margin-bottom: 20px;
+  }
+  .blog-section .blog-img img {
+    width: 300px;
+    height: 300px;
+  }
+  .see-more {
+    padding: 5rem !important;
+  }
+  /*contact-page*/
+  .contact {
+    padding: 0.8rem !important;
+  }
+  textarea {
+    width: 100%;
+    margin: auto;
+  }
+  .btn-filters {
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-direction: row;
+    margin-bottom: 20px !important;
+  }
+  .btn-filters button {
+    font-size: 10px !important;
+  }
+  .image-active {
+    margin: auto !important;
+    padding: 1rem !important;
+  }
+  .dest-images .col-md-6 img {
+    width: 296px !important;
+    height: 150px !important;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+  .dest-images .col-md-2 img {
+    margin-bottom: 20px !important;
+    width: 330px !important;
+    height: 150px !important;
+    object-fit: cover;
+    margin: auto !important;
+    background-position: center;
+    background-size: cover;
+  }
+  .dest-images h3 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .dest-images span {
+    display: none;
+  }
+}
